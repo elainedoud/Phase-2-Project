@@ -1,22 +1,23 @@
 import ThemeParkCards from "./ThemeParkCards"
 import ParkSearch from "./ParkSearch"
 import ParkSubmit from "./ParkSubmit"
+import MyReviews from"./MyReviews"
 
 
 
-function ThemeParkPage(){
-
-
-
+function ThemeParkPage({parks}){
+    const RenderParks=parks.map(park=>{
+       return <ThemeParkCards park={park}key={park.id}/>
+    })
 
 
     return(
         <div>
-        <ThemeParkCards />
         <ParkSearch />
         <ParkSubmit />
-        
-        </div>
+        <MyReviews />
+        {RenderParks}
+         </div>
     )
 }
 
