@@ -1,0 +1,53 @@
+{
+    "theme-Parks":[{
+      "id":1,
+      "name":"Six Flags Great Adventure",
+      "state": "New Jersey",
+      "city":"Jackson Township",
+      "image":"URL",
+      "Review":"..."
+   },
+   {
+    "id":2,
+    "name":"Dorney Park & Wildwater Kingdom",
+    "state": "Pennsylvania",
+    "city":"Lehigh County",
+    "image":"URL",
+    "Review":"..."
+ },
+ {
+    "id":3,
+    "name":"Walt Disney World",
+    "state": "Florida",
+    "city":"Orlando",
+    "image":"URL",
+    "Review":"..."
+ },
+ {
+    "id":3,
+    "name":"Hershey Park",
+    "state": "Pennsylvania",
+    "city":"Lehigh County",
+    "image":"URL",
+    "Review":"..."
+ }
+ 
+ ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
