@@ -1,6 +1,7 @@
 import logo from '../logo.svg';
 import '../App.css';
 import Header from "./Header"
+import ThemeParkPage from "./ThemeParkPage"
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           Learn React
         </a>
         <Header />
+        <ThemeParkPage  />
       </header>
     </div>
   );
