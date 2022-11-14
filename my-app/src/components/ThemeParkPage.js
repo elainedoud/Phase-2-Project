@@ -1,13 +1,11 @@
 import ThemeParkCards from "./ThemeParkCards"
 import ParkSearch from "./ParkSearch"
 import ParkSubmit from "./ParkSubmit"
+import MyReviews from"./MyReviews"
 
 
 
 function ThemeParkPage(){
-
-
-
 
 
     return(
@@ -15,6 +13,7 @@ function ThemeParkPage(){
         <ThemeParkCards />
         <ParkSearch />
         <ParkSubmit />
+        <MyReviews />
         
         </div>
     )
