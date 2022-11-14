@@ -2,16 +2,9 @@
 
 function NavBar(){
 
-
-
-
-
-
-
-
-    return (
-        <>
-        </>
+ return (
+         <>
+         </>
     )
 }
 
