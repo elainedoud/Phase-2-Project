@@ -1,15 +1,15 @@
-
 import '../App.css';
 import Header from "./Header"
 import ThemeParkPage from "./ThemeParkPage"
-import { useEffect } from 'react';
+import { useEffect,useState} from 'react';
 
 
 function App() {
+  const [parks,setParks]=useState([])
   useEffect(()=>{
     fetch("http://localhost:3000/theme-Parks")
     .then(r=>r.json())
-    .then(data=>console.log(data))
+    .then(parks=>setParks(parks))
 
   },[])
   return (
@@ -17,7 +17,7 @@ function App() {
       <header className="App-header">
         <h1>Render</h1>
         <Header />
-        <ThemeParkPage  />
+        <ThemeParkPage parks={parks}  />
       </header>
     </div>
   );
