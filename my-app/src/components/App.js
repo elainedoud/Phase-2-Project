@@ -15,9 +15,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Render</h1>
+        <h1>(Project Name Here)</h1>
         <Header />
+        <div className="parkContainer">
         <ThemeParkPage parks={parks}  />
+        </div>
       </header>
     </div>
   );
