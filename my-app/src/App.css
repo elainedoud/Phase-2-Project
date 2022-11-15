@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  display: grid;
 }
 
 .App-logo {
@@ -15,12 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 50vh;
   color: white;
 }
 
@@ -35,4 +30,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.parkContainer {
+  column-count: 2;
+}
+
+.park_image {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+}
+
+h1 {
+  color: white;
+}
+
+.park_pic {
+  display: inline-block,
+  
+}
+
+.misc_unused {
+  font-size: calc(10px + 2vmin);
+  border: solid black 2px;
+  box-shadow: 3px 5px #222A;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }

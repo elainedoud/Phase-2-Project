@@ -17,7 +17,9 @@ function App() {
       <header className="App-header">
         <h1>Render</h1>
         <Header />
+        <div className="parkContainer">
         <ThemeParkPage parks={parks}  />
+        </div>
       </header>
     </div>
   );

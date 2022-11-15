@@ -8,16 +8,16 @@ function ThemeParkCards({park}){
 
 
     return(
-    <div>
+    <li className="park_pic">
         <h1>{park.name}</h1>
-        <img src={park.image} alt={park.name} />
+        <img src={park.image} alt={park.name} className="park_image" />
         <h2>{park.state}</h2>
-        <ul>
-           <li>
+        
+           <p>
             {park.review}
-            </li> 
-        </ul>
-   </div>
+            </p> 
+        
+   </li>
     
     )
 }
