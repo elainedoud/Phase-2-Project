@@ -46,11 +46,6 @@ h1 {
   color: white;
 }
 
-.park_pic {
-  display: inline-block,
-  
-}
-
 .misc_unused {
   font-size: calc(10px + 2vmin);
   border: solid black 2px;
