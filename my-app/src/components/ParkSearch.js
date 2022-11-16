@@ -1,9 +1,15 @@
 import React from "react"
 
-function ParkSearch(){
+function ParkSearch({search, setSearch}){
 return(
     <div>
-        <input placeholder="Search for a Park">
+        <input 
+        type="text"
+        id="search"
+        placeholder="Search for a Park"
+        onChange={e => setSearch(e.target.value)}
+        value={search}
+        >
         </input>
     </div>
 )
