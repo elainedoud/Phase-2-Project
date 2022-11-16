@@ -5,7 +5,6 @@ import ParkSubmit from "./ParkSubmit"
 import MyReviews from"./MyReviews"
 
 
-
 function ThemeParkPage({parks, setParks}){
     const [search, setSearch] = useState("")
 
