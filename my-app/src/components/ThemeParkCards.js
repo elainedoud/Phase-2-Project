@@ -1,7 +1,7 @@
 import React from "react"
 import {useState} from "react"
 
-function ThemeParkCards({park}){
+function ThemeParkCards({park, theReviews}){
 
     const [onClick, setOnclick] = useState(false)
 
@@ -13,7 +13,7 @@ function ThemeParkCards({park}){
     return(
     <div>
         <h1>{park.name}</h1>
-        {onClick ? <p onClick={handleClick}>Placeholder for review</p> : <img src={park.image} alt={park.name} className="park_image" onClick={handleClick} />}
+        {onClick ? <p onClick={handleClick}>Placeholder for Review</p> : <img src={park.image} alt={park.name} className="park_image" onClick={handleClick} />}
         <h2>{park.state}</h2>
    </div>
     

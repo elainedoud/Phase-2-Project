@@ -1,8 +1,11 @@
+import React from "react"
+
 function ParkSearch(){
 return(
-    <>
-    <div>Placeholder For Search Bar</div>
-    </>
+    <div>
+        <input placeholder="Search for a Park">
+        </input>
+    </div>
 )
 }
 export default ParkSearch
