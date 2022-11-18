@@ -2,7 +2,7 @@ import React from "react"
 
 function ParkSearch({search, setSearch}){
 return(
-    <div>
+    <div id="searchDiv">
         <input 
         type="text"
         id="searchBar"
