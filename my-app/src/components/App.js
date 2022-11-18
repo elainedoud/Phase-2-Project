@@ -14,6 +14,13 @@ function App() {
     .then(parks=>setParks(parks))
 
   },[])
+  function patchPark(newPark){
+    const newParks=parks.map(park=>{
+      if(park.id===newPark.id){return newPark}
+      else {return park}
+    })
+    setParks(newParks)
+  }
 
 
   return (
@@ -22,7 +29,7 @@ function App() {
       <header>
         <Header />
         <div>
-        <ThemeParkPage parks={parks} setParks={setParks} />
+        <ThemeParkPage parks={parks} setParks={setParks} patchPark={patchPark}/>
         </div>
       </header>
     </div>
