@@ -17,7 +17,7 @@ function createPark(e){
       name: park,
       state: location,
       image: image,
-      reviews: review,
+      review: review,
     })
   })
     .then(res => res.json())
