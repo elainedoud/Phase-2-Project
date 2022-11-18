@@ -35,7 +35,7 @@ function ThemeParkPage({parks, setParks}){
             <About/>
         </Route>
         <Route  path="/My Reviews">
-        <MyReviews />
+        <MyReviews parks={parks}/>
         </Route>
         <Route path="/">
         <ParkSearch search={search} setSearch={setSearch}/>

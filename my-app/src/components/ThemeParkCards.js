@@ -3,15 +3,15 @@ import {useState} from "react"
 
 function ThemeParkCards({park, theReviews}){
     const [onClick, setOnclick] = useState(false)
-    const [review,setReview]=useState([''])
+    //const [review,setReview]=useState([''])
      function handleClick(){
         setOnclick(!onClick)
     }
-    function reviewArry(e,addReview){
-       setReview(e.target.value)
-       const newReview=[...park.reviews,addReview]
-       setReview(newReview)
-    }
+    //function reviewArry(e,addReview){
+      // setReview(e.target.value)
+       //const newReview=[...park.reviews,addReview]
+       //setReview(newReview)
+    //}
    
     console.log(review)
  
