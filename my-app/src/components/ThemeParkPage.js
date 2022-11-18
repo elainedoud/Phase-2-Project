@@ -38,9 +38,10 @@ function ThemeParkPage({parks, setParks}){
         <MyReviews />
         </Route>
         <Route path="/">
+        <ParkSearch search={search} setSearch={setSearch}/>
         {RenderParks}
         </Route>
-         <ParkSearch search={search} setSearch={setSearch}/>
+        
         </Switch>
         
          </div>

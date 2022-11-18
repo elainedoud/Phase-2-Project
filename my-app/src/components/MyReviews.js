@@ -1,5 +1,6 @@
 import React from "react"
-function MyReviews(){
+function MyReviews({parks}){
+    
 
 
     return(
