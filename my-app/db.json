@@ -19,7 +19,7 @@
       "name": "Hershey Park",
       "state": "Pennsylvania",
       "image": "http://bit.ly/3AerIRt",
-      "review": "'This place screams fun!' Hannah M." 
+      "review": "'This place screams fun!' Hannah M."
     },
     {
       "id": 4,
@@ -28,7 +28,6 @@
       "image": "http://bit.ly/3E68yhV",
       "review": "'DOLLYWOOD is a beautiful and well-manicured family theme park' Richard R."
     },
-
     {
       "id": 5,
       "name": "Silver Dollar City",

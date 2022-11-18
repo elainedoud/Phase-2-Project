@@ -5,7 +5,7 @@ return(
     <div>
         <input 
         type="text"
-        id="search"
+        id="searchBar"
         placeholder="Search for a Park"
         onChange={e => setSearch(e.target.value)}
         value={search}

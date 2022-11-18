@@ -2,8 +2,7 @@ import React from "react"
 import '../App.css';
 import Header from "./Header"
 import ThemeParkPage from "./ThemeParkPage"
-import ParkSubmit from "./ParkSubmit"
-import ParkSearch from "./ParkSearch"
+
 import { useEffect,useState} from 'react';
 
 
@@ -18,11 +17,11 @@ function App() {
 
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>(Project Name Here)</h1>
+    <div id="background" >
+      
+      <header>
         <Header />
-        <div className="parkContainer">
+        <div>
         <ThemeParkPage parks={parks} setParks={setParks} />
         </div>
       </header>
