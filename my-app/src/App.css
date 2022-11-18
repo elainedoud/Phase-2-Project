@@ -140,3 +140,6 @@ a{
   font-size:20px;
   text-allign:center;
 }
+#review-submit{  display:inline-block;
+  background: linear-gradient(-45deg,#157ae1,#c7a1ff);
+  cursor:pointer}

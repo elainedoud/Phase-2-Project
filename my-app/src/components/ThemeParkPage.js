@@ -2,7 +2,6 @@ import React, {useState} from "react"
 import ThemeParkCards from "./ThemeParkCards"
 import ParkSearch from "./ParkSearch"
 import ParkSubmit from "./ParkSubmit"
-import MyReviews from"./MyReviews"
 import About from "./About"
 import { Route, Switch } from "react-router-dom"
 
@@ -33,9 +32,6 @@ function ThemeParkPage({parks, setParks,patchPark}){
         </Route>
         <Route path="/About">
             <About/>
-        </Route>
-        <Route  path="/My Reviews">
-        <MyReviews parks={parks}/>
         </Route>
         <Route path="/">
         <ParkSearch search={search} setSearch={setSearch}/>

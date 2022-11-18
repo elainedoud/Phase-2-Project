@@ -36,7 +36,7 @@ function ThemeParkCards({park, theReviews,patchPark}){
         onChange={e=>setReview(e.target.value)}
         value={review}>
          </input>}
-         <button onClick={postReview}>Submit Review</button>
+         <button id ="review-submit"onClick={postReview}>Submit Review</button>
    </div>
     
     )
