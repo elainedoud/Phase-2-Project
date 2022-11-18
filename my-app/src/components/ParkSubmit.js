@@ -25,13 +25,13 @@ function createPark(e){
 }
 
     return(
-    <div>
+    <div id="search-form">
       <form onSubmit={createPark}>
-        <input type="text" name="name" placeholder="Amusement Park Name" value={park} onChange={(e) => setPark(e.target.value)} ></input>
-        <input type="text" name="state" placeholder="State" value={location} onChange={(e)=> setLocation(e.target.value)}></input>
-        <input type="text" name="image" placeholder="Image URL" value={image} onChange={(e)=> setImage(e.target.value)}></input>
-        <input type="text" name="review" placeholder="Review" value={review} onChange={(e)=> setReview(e.target.value)}></input>
-        <button type="submit">Add Amusement Park</button>
+        <input className="search" type="text" name="name" placeholder="Amusement Park Name" value={park} onChange={(e) => setPark(e.target.value)} ></input>
+        <input className="search" type="text" name="state" placeholder="State" value={location} onChange={(e)=> setLocation(e.target.value)}></input>
+        <input className="search" type="text" name="image" placeholder="Image URL" value={image} onChange={(e)=> setImage(e.target.value)}></input>
+        <input className="search"type="text" name="review" placeholder="Review" value={review} onChange={(e)=> setReview(e.target.value)}></input>
+        <button id="submit-button"  type="submit">Add Amusement Park</button>
       </form>
     </div>
     )
