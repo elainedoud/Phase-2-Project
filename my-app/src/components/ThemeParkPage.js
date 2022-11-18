@@ -7,7 +7,7 @@ import About from "./About"
 import { Route, Switch } from "react-router-dom"
 
 
-function ThemeParkPage({parks, setParks}){
+function ThemeParkPage({parks, setParks,patchPark}){
     const [search, setSearch] = useState("")
 
     const filteredPark = parks.filter(park =>{
@@ -15,7 +15,7 @@ function ThemeParkPage({parks, setParks}){
     })
 
     const RenderParks=filteredPark.map(park=>{
-        return <ThemeParkCards park={park}key={park.id}/>
+        return <ThemeParkCards park={park}key={park.id} patchPark={patchPark}/>
      })
 
     function viewNewPark(newPark){
